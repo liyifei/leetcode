@@ -5,9 +5,9 @@ using namespace std;
 
 int dominantIndex(vector<int>& nums) {
 	int nums_size = nums.size();
-	if(nums_size < 2){
-		return -1;
-	}
+	//if(nums_size < 2){
+	//	return -1;
+	//}
 	
 	int Mx = INT_MIN;
 	int Mx_index = -1; 
